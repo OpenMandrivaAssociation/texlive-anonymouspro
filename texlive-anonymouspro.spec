@@ -6,7 +6,7 @@
 # catalog-version 2.0
 Name:		texlive-anonymouspro
 Version:	2.0
-Release:	4
+Release:	5
 Summary:	Use AnonymousPro fonts with LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/anonymouspro
