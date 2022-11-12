@@ -5,9 +5,9 @@ Summary:	Use AnonymousPro fonts with LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/anonymouspro
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/anonymouspro.r51631.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/anonymouspro.doc.r51631.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/anonymouspro.source.r51631.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/anonymouspro.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/anonymouspro.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/anonymouspro.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
