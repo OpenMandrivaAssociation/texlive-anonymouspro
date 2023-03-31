@@ -1,6 +1,6 @@
 Name:		texlive-anonymouspro
 Version:	51631
-Release:	1
+Release:	2
 Summary:	Use AnonymousPro fonts with LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/anonymouspro
