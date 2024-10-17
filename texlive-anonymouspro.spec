@@ -3,7 +3,7 @@ Version:	51631
 Release:	2
 Summary:	Use AnonymousPro fonts with LaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/anonymouspro
+URL:		https://www.ctan.org/tex-archive/fonts/anonymouspro
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/anonymouspro.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/anonymouspro.doc.r%{version}.tar.xz
