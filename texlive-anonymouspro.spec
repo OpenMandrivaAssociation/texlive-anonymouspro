@@ -1,9 +1,10 @@
 %global tl_name anonymouspro
 %global tl_revision 79618
+%global tl_version 2.2
 
 Name:		texlive-%{tl_name}
 Epoch:		1
-Version:	2.2
+Version:	%{tl_version}
 Release:	%{tl_revision}.1
 Summary:	Use AnonymousPro fonts with LaTeX
 Group:		Publishing
@@ -14,10 +15,18 @@ Source1:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/anonymouspro.doc
 Source2:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/anonymouspro.source.r%{tl_revision}.tar.xz
 BuildArch:	noarch
 BuildSystem:	texlive
-Provides:	texlive(%{tl_name}) = %{tl_revision}
+Requires:	texlive-tlpkg
+Provides:	texlive(%{tl_name}) = %{version}
 
 %description
 The fonts are a monowidth set, designed for use by coders. They appear
 as a set of four TrueType, or Adobe Type 1 font files, and LaTeX support
 is also provided.
 
+
+%install -a
+mkdir -p %{buildroot}%{_texmf_updmap_d}
+cat > %{buildroot}%{_texmf_updmap_d}/%{tl_name} <<'TL_DROPIN_EOF'
+# from anonymouspro:
+Map AnonymousPro.map
+TL_DROPIN_EOF
